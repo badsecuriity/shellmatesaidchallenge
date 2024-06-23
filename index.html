@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #000;
+            color: #f00;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-top: 50px;
+        }
+
+        form {
+            margin-top: 30px;
+        }
+
+        textarea {
+            width: 400px;
+            height: 100px;
+            padding: 10px;
+            border: 2px solid #f00;
+            background-color: #222;
+            color: #f00;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #f00;
+            color: #000;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        a {
+            color: #f00;
+            text-decoration: none;
+            border-bottom: 1px dashed #f00;
+        }
+
+        a:hover {
+            color: #ff0;
+            border-bottom-color: #ff0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Here is my new gift you, feel free to tell everything about yourself</h1>
+<form action="/create" method="post">
+    <textarea name="wish" id="trash" cols="60" rows="3"></textarea><br>
+    <input type="submit" value="Create!">
+</form>
+</body>
+</html>
